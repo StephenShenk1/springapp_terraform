@@ -6,6 +6,7 @@ resource "aws_vpc" "myvpc" {
 
    tags = {
     Name        = "aws_3tier_app"
+    Name        = "aws_4tier_app"
     
    
   }
